@@ -1,0 +1,92 @@
+📊 Project Title:
+
+Exploratory Data Visualization on Global COVID-19 Impact
+
+
+---
+
+🎯 Objective:
+
+To analyze and visualize the global impact of COVID-19 through interactive charts and graphs using Python, to identify trends, affected regions, and mortality rates across countries.
+
+
+---
+
+🛠️ Tools & Technologies:
+
+Python (Jupyter Notebook or Google Colab)
+
+Pandas & NumPy (Data Analysis)
+
+Matplotlib & Seaborn (Static Visualization)
+
+Plotly & Dash (Interactive Dashboard)
+
+Tableau or Power BI (Optional for professional visualization)
+
+
+
+---
+
+📂 Dataset:
+
+Use COVID-19 dataset from Our World in Data
+Alternative: Kaggle – COVID-19 Data Repository
+
+
+---
+
+🪜 Project Breakdown:
+
+1. Data Collection
+
+Load dataset (CSV from GitHub or Kaggle).
+
+Understand columns like date, location, new_cases, total_deaths, population.
+
+
+2. Data Cleaning
+
+Handle missing values (fill/replace/drop).
+
+Filter out relevant countries or focus on continents.
+
+Convert data types if needed (dates, numbers).
+
+
+3. Data Analysis
+
+Calculate total cases, deaths, recovery rates.
+
+Identify top 10 countries by:
+
+Highest cases
+
+Highest death rate
+
+Highest vaccination rates (if available)
+
+
+
+4. Visualizations
+
+📈 Line Chart: Daily new cases (worldwide or per country)
+
+📊 Bar Chart: Total cases by country
+
+🌍 Choropleth Map: Global spread (Plotly)
+
+📉 Pie Chart: Continent-wise case distribution
+
+🟢 Animated Timeline (Plotly): Cases over time
+
+
+5. Dashboard (Optional but impactful)
+
+Use Plotly Dash or Power BI/Tableau to create:
+
+Filters for country/continent
+
+Date slider
+
+Real-time stats (Total cases, deaths, vaccinations)
